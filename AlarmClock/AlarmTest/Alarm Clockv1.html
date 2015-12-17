@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///Users/rossdavis/Documents/AlarmClock/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Alarm Clockv1_files/autoip.json"></script><script async="" src="./Alarm Clockv1_files/autoip(1).json"></script><script async="" src="./Alarm Clockv1_files/autoip(2).json"></script><script async="" src="./Alarm Clockv1_files/autoip(3).json"></script><script async="" src="./Alarm Clockv1_files/autoip(4).json"></script><script async="" src="./Alarm Clockv1_files/autoip(5).json"></script><script async="" src="./Alarm Clockv1_files/autoip(6).json"></script><script async="" src="./Alarm Clockv1_files/autoip(7).json"></script><script async="" src="./Alarm Clockv1_files/autoip(8).json"></script><script async="" src="./Alarm Clockv1_files/autoip(9).json"></script><script async="" src="./Alarm Clockv1_files/autoip(10).json"></script><script async="" src="./Alarm Clockv1_files/autoip(11).json"></script><script async="" src="./Alarm Clockv1_files/autoip(12).json"></script><script async="" src="./Alarm Clockv1_files/autoip(13).json"></script><script async="" src="./Alarm Clockv1_files/autoip(14).json"></script> 
+    <title>Alarm Clock</title>
+    <meta charset="utf-8">
+
+    <!-- This app's includes -->
+    <link href="./Alarm Clockv1_files/index.css" rel="stylesheet" type="text/css">
+    <script src="./Alarm Clockv1_files/jquery-1.11.3.min.js"></script>
+    <script src="./Alarm Clockv1_files/index.js"></script>
+    <!-- End apps includes -->
+</head>
+<body id="body" class="norm">
+    <div>
+        <audio id="alarmDing">
+        	<source=" sounds="" dingling.mp3"="" type="audio/mpeg">&lt;&gt;
+        </source="></audio>
+        <div id="day">Tuesday</div>
+        <div id="clock">09:12:23 pm</div>
+        <div id="localLabel">Local Time</div>
+        <div id="date">November 24, 2015</div>
+        <div id="timeZone">
+        	<b id="tZ1" style="text-decoration:underline">Alternate Time Zone:</b>
+        	<br>
+        	<select id="zone">
+        		<option value="0">New York City(Eastern US)</option>
+        		<option value="1">San Antonio(Central US)</option>
+        		<option value="2">Denver(Mountain US)</option>
+        		<option value="3">San Francisco(Pacific US)</option>
+        		<option value="4">Universal Time Code</option>
+        	</select>
+        	<br>
+        	<div id="zoneTime">11/24/2015, 7:12:23 PM</div>
+        </div>
+        <div class="textBox">
+        	<p id="alarmTitle">Set Alarm</p>
+        	<form id="alarm">
+            	Hour:
+            	<input type="number" class="alarmEntry" id="hour">
+            	Minute:
+            	<input type="number" class="alarmEntry" id="minute">
+            	Meridian(am / pm):
+            	<select class="alarmEntry" id="meridian">
+            		<option>am</option>
+            		<option>pm</option>
+            	</select>
+            	<br>
+            	<div id="alarmButton">Submit</div>
+            	<div id="currentAlarm">Current Alarm : Not Set</div>
+            </form>	
+        	
+        </div>
+        <div id="snoozeButt"></div>
+        <div id="wx">
+        	<tag1>Current Weather</tag1>
+        	<br>
+        	<div id="wx1">Current Location: Louisville, KY<br>Conditions: Partly Cloudy<br>Temperature: 42.8 F (6.0 C)</div>
+        	<img id="wxIcon" src="./Alarm Clockv1_files/nt_partlycloudy.gif" width="50" height="50">
+        	<br>
+        	<a id="wxLink" href="http://www.wunderground.com/US/KY/Louisville.html" target="_blank">View 10 Day Forcast</a>
+        	<br>
+        	Weather Location by Zip Code
+        	<input type="text" id="wxZip">
+        	<div id="wxButt">Submit</div>
+        	<br>
+        	<div id="lastUpdate">Last Updated at 09:12 pm</div>
+        </div>
+        				
+    </div>
+
+</body></html>

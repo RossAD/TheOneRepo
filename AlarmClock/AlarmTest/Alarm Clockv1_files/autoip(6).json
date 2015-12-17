@@ -1,0 +1,96 @@
+
+jQuery11130904396325815469_1447884894045(
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Louisville, KY",
+		"city":"Louisville",
+		"state":"KY",
+		"state_name":"Kentucky",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"40201",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"38.24465179",
+		"longitude":"-85.77404785",
+		"elevation":"142.00000000"
+		},
+		"observation_location": {
+		"full":"West Louisville (Parkland), Louisville, Kentucky",
+		"city":"West Louisville (Parkland), Louisville",
+		"state":"Kentucky",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"38.229237",
+		"longitude":"-85.793327",
+		"elevation":"466 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KKYLOUIS121",
+		"observation_time":"Last Updated on November 24, 9:02 PM EST",
+		"observation_time_rfc822":"Tue, 24 Nov 2015 21:02:43 -0500",
+		"observation_epoch":"1448416963",
+		"local_time_rfc822":"Tue, 24 Nov 2015 21:12:19 -0500",
+		"local_epoch":"1448417539",
+		"local_tz_short":"EST",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0500",
+		"weather":"Partly Cloudy",
+		"temperature_string":"42.8 F (6.0 C)",
+		"temp_f":42.8,
+		"temp_c":6.0,
+		"relative_humidity":"80%",
+		"wind_string":"Calm",
+		"wind_dir":"ESE",
+		"wind_degrees":112,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1028",
+		"pressure_in":"30.35",
+		"pressure_trend":"+",
+		"dewpoint_string":"37 F (3 C)",
+		"dewpoint_f":37,
+		"dewpoint_c":3,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"43 F (6 C)",
+		"windchill_f":"43",
+		"windchill_c":"6",
+		"feelslike_string":"43 F (6 C)",
+		"feelslike_f":"43",
+		"feelslike_c":"6",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/KY/Louisville.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KKYLOUIS121",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=38.229237,-85.793327",
+		"nowcast":""
+	}
+}
+);

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Alarm Clock</title>
+    <meta charset="utf-8">
+
+    <!-- This app's includes -->
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- End apps includes -->
+</head>
+<body id="body" class="norm">
+    <div>
+        <audio id="alarmDing">
+        	<source="/sounds/DingLing.mp3" type="audio/mpeg"><>
+        </audio>
+        <div id="day"></div>
+        <div id="clock"></div>
+        <div id="localLabel">Local Time</div>
+        <div id="date"></div>
+        <div id="timeZone">
+        	<b id="tZ1" style="text-decoration:underline">Alternate Time Zone:</b>
+        	<br>
+        	<select id="zone">
+        		<option value="0">New York City(Eastern US)</option>
+        		<option value="1">San Antonio(Central US)</option>
+        		<option value="2">Denver(Mountain US)</option>
+        		<option value="3">San Francisco(Pacific US)</option>
+        		<option value="4">Universal Time Code</option>
+        	</select>
+        	<br>
+        	<div id="zoneTime"></div>
+        </div>
+        <div class="textBox">
+        	<p id="alarmTitle">Set Alarm</p>
+        	<form id="alarm">
+            	Hour:
+            	<input type="number" class="alarmEntry" id="hour"/>
+            	Minute:
+            	<input type="number" class="alarmEntry" id="minute"/>
+            	Meridian(am / pm):
+            	<select class="alarmEntry" id="meridian">
+            		<option>am</option>
+            		<option>pm</option>
+            	</select>
+            	<br>
+            	<div id="alarmButton">Submit</div>
+            	<div id="currentAlarm"></div>
+            </form>	
+        	
+        </div>
+        <div id="snoozeButt"></div>
+        <div id="wx">
+        	<tag1>Current Weather</tag1>
+        	<br>
+        	<div id="wx1"></div>
+        	<img id="wxIcon" src="" width = "50" height= "50">
+        	<br>
+        	<a id="wxLink" href="" target="_blank">View 10 Day Forcast</a>
+        	<br>
+        	Weather Location by Zip Code
+        	<input type="text" id="wxZip">
+        	<div id="wxButt">Submit</div>
+        	<br>
+        	<div id="lastUpdate"></div>
+        </div>
+        				
+    </div>
+</body>
+</html>

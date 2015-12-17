@@ -1,0 +1,233 @@
+body {
+    background-color: #f0f0f0;
+    
+}
+.norm {
+	background-image: url("../pics/make-a-sunny-day.jpg");
+    /*background-color:#fffffe;*/
+    background-size: cover;
+}
+.alarm {
+	/*background-image: url("../pics/wheat-1920x1080-alarmRed.jpg");*/
+	background-color:#ffc2b2;
+	background-size: cover;
+	}
+#timeZone {
+	margin: auto;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+	border: #solid 10px #000;
+	background-color: rgba(245,245,245,0.5);
+	box-shadow: 2px 2px 2px #000000;
+	width:15%;
+	height:11%;
+}
+#tZ1 {
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#zoneTime {
+	padding-top: 18px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#wx {
+	margin: auto;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border: #solid 10px #000;
+	background-color: rgba(245,245,245,0.5);
+	box-shadow: 2px 2px 2px #000000;
+	width:300px;
+	height:275px;
+}
+#wx1 {
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+tag1 {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+#wxButt {
+	position: relative;
+	top: 10px;
+	margin: auto;
+	text-align: center;
+	height: 20px;
+	width: 55px;
+	padding-top: 5px;
+	border-radius: 5px;
+	border: #solid 5px; #000;
+	background-color: #fffffc;
+	box-shadow: 1px 1px 1px #000000;
+}
+#wxButt:hover {
+	color: blue;
+	text-decoration: bold;
+	background-color: #dddddd;
+	cursor: pointer;
+}
+#lastUpdate {
+	font-size: 10px;
+	text-align: center;
+	color: black;
+	
+}
+#day {
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: bold;
+    color: black;
+}
+#clock {
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 0; bottom:0; left:0; right:0;
+    font-size: 100px;
+    text-align: center;
+    font: courier, monospace;
+    color: #f00000;
+    text-shadow: 2px 2px 4px #000000;
+}
+#timeFormat {
+	margin: auto;
+	text-align: center;
+	height: 20px;
+	width: 150px;
+	padding-top: 5px;
+	border-radius: 5px;
+	border: #solid 5px; #000;
+	background-color: #ffffef;
+	box-shadow: 1px 1px 1px #000000;
+}
+#timeFormat:hover {
+	color: blue;
+	text-decoration: bold;
+	background-color: #dddddd;
+	cursor: pointer;
+}
+#localLabel {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font: courier, monospace;
+	color: black;
+}
+#date {
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: bold;
+    color: black;
+}
+.textBox {
+	position: absolute; 
+	border-radius: 30px;
+	border: #solid 10px #000;
+	background-color: rgba(245,245,245,0.5);
+	box-shadow: 2px 2px 2px #000000;
+	width:30%;
+	top: 15%;
+	left: 10px;
+}
+#alarmTitle {
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: italic;
+    text-align: center;
+    color: black;
+}
+#alarm {
+    font-size: 15px;
+    position: relative;
+    font-family: times;
+    text-align: center;
+    text-decoration: bold;
+    color: black;
+}
+.alarmEntry {
+    height: 20px;
+    width: 60px;
+}
+#alarmButton {
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size:15px;
+	font-family: times;
+	height: 20px;
+	width: 55px;
+	padding-top: 5px;
+	border-radius: 5px;
+	border: #solid 5px; #000;
+	background-color: #fffffc;
+	box-shadow: 1px 1px 1px #000000;
+}
+#alarmButton:hover {
+	color: blue;
+	text-decoration: bold;
+	background-color: #dddddd;
+	cursor: pointer;
+}
+#snoozeButt {
+	text-align: center;
+	border-radius: 200px;
+	padding-top:100px;
+	font-size: 60px;
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left:35%; top:20%;
+	z-index: 10;
+}
+.snoozeVisible {
+	border: #solid 10px #000;
+	background-color: rgba(255,255,255,0.85);
+	box-shadow: 5px 5px 5px #000000;
+}
+.snoozeVisible:hover {
+	color: white;
+	cursor: pointer;
+	background-color: rgba(200,100,125,0.95);
+}
+#button {
+    margin-top: 30px;
+    font-size: 50px;   
+}
+#button:hover {
+    color: red;
+    cursor: pointer;
+    background-color: rgba(225,225,225,0.5);
+}
+#alarmTime {
+    margin-top: -70px;
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+#currentAlarm {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: courier;
+    text-align: center;
+}
